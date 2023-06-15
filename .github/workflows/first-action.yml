@@ -1,10 +1,10 @@
-name: First workflow
-on: push #workflow_dispatch
+name: First-workflow
+on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "Hello Word"
-      - name: Print good bye
-        run: echo "Done.. bye!"
+      - name: Print gretings
+        run: echo "Valentine is learning GitHub Actions"
+      - name: Print goodbye
+        run: echo "Done -bye"
