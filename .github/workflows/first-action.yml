@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print gretings
-        run: echo "Valentine is learning GitHub Actions"
+        run: |
+            echo "Valentine is learning GitHub Actions" > test
+            ls -la
+            mkdir test-val
+            ls -la
       - name: Print goodbye
         run: echo "Done -bye"
